@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		1112723E1F3B8518004CE19D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112723D1F3B8518004CE19D /* main.m */; };
 		111272411F3B8518004CE19D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 111272401F3B8518004CE19D /* AppDelegate.m */; };
-		111272441F3B8518004CE19D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111272431F3B8518004CE19D /* ViewController.m */; };
 		111272471F3B8518004CE19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111272451F3B8518004CE19D /* Main.storyboard */; };
 		111272491F3B8518004CE19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111272481F3B8518004CE19D /* Assets.xcassets */; };
 		1112724C1F3B8518004CE19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1112724A1F3B8518004CE19D /* LaunchScreen.storyboard */; };
+		111272551F3BA7BA004CE19D /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111272541F3BA7BA004CE19D /* CustomCollectionViewController.m */; };
+		111272581F3BB5F5004CE19D /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111272571F3BB5F5004CE19D /* CustomCollectionViewCell.m */; };
+		1112725B1F3C0525004CE19D /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112725A1F3C0525004CE19D /* CollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		1112723D1F3B8518004CE19D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1112723F1F3B8518004CE19D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		111272401F3B8518004CE19D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		111272421F3B8518004CE19D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		111272431F3B8518004CE19D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		111272461F3B8518004CE19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111272481F3B8518004CE19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1112724B1F3B8518004CE19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1112724D1F3B8518004CE19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111272531F3BA7BA004CE19D /* CustomCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionViewController.h; path = ../CustomCollectionViewController.h; sourceTree = "<group>"; };
+		111272541F3BA7BA004CE19D /* CustomCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionViewController.m; path = ../CustomCollectionViewController.m; sourceTree = "<group>"; };
+		111272561F3BB5F5004CE19D /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		111272571F3BB5F5004CE19D /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		111272591F3C0525004CE19D /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		1112725A1F3C0525004CE19D /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,18 @@
 		1112723B1F3B8518004CE19D /* InstaKilo (P) */ = {
 			isa = PBXGroup;
 			children = (
+				111272561F3BB5F5004CE19D /* CustomCollectionViewCell.h */,
+				111272571F3BB5F5004CE19D /* CustomCollectionViewCell.m */,
 				1112723F1F3B8518004CE19D /* AppDelegate.h */,
 				111272401F3B8518004CE19D /* AppDelegate.m */,
-				111272421F3B8518004CE19D /* ViewController.h */,
-				111272431F3B8518004CE19D /* ViewController.m */,
 				111272451F3B8518004CE19D /* Main.storyboard */,
+				111272591F3C0525004CE19D /* CollectionReusableView.h */,
+				1112725A1F3C0525004CE19D /* CollectionReusableView.m */,
 				111272481F3B8518004CE19D /* Assets.xcassets */,
 				1112724A1F3B8518004CE19D /* LaunchScreen.storyboard */,
 				1112724D1F3B8518004CE19D /* Info.plist */,
+				111272531F3BA7BA004CE19D /* CustomCollectionViewController.h */,
+				111272541F3BA7BA004CE19D /* CustomCollectionViewController.m */,
 				1112723C1F3B8518004CE19D /* Supporting Files */,
 			);
 			path = "InstaKilo (P)";
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111272441F3B8518004CE19D /* ViewController.m in Sources */,
 				111272411F3B8518004CE19D /* AppDelegate.m in Sources */,
+				1112725B1F3C0525004CE19D /* CollectionReusableView.m in Sources */,
+				111272551F3BA7BA004CE19D /* CustomCollectionViewController.m in Sources */,
 				1112723E1F3B8518004CE19D /* main.m in Sources */,
+				111272581F3BB5F5004CE19D /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,7 @@
 				111272521F3B8518004CE19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
